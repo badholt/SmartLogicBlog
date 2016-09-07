@@ -1,0 +1,28 @@
+<template name="comment">
+    <div class="event">
+        <div class="label">
+            <img src="{{avatar}}" />
+        </div>
+
+        <div class="content">
+            <div class="summary">
+                <a class="user">
+                    {{user}}
+                </a> said:
+                <div class="date">
+                    {{createdAt}}
+                </div>
+            </div>
+
+            <div class="extra text">
+                {{text}}
+            </div>
+
+            <div class="meta">
+                <a class="like">
+                    <i class="like icon"></i> {{likes}} Likes
+                </a>
+            </div>
+        </div>
+    </div>
+</template>

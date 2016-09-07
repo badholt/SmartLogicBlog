@@ -1,0 +1,19 @@
+<template name="post">
+    <li class="item">
+        <div class="content">
+            <a class="header">
+                {{title}}
+            </a>
+
+            <div class="description">
+                {{message}}
+            </div>
+        </div>
+    </li>
+
+    <div class="ui feed">
+        {{#each comments}}
+            {{> comment}}
+        {{/each}}
+    </div>
+</template>

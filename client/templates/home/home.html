@@ -1,0 +1,15 @@
+<template name="home">
+    <div class="ui center aligned centered fourteen wide column">
+        <h1 class="ui divided header">My Blog</h1>
+
+        <h3 class="ui header">Barbara Holt</h3>
+
+        <p>This is a simple blog description.</p>
+
+        <ul class="ui very relaxed selection list">
+            {{#each post}}
+                {{> post}}
+            {{/each}}
+        </ul>
+    </div>
+</template>

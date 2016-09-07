@@ -1,0 +1,14 @@
+{
+  "facebook": {
+    "clientID": '',
+    "clientSecret": ''
+  },
+  "github": {
+    "clientID": '',
+    "clientSecret": ''
+  },
+  "google": {
+    "clientID": '',
+    "clientSecret": ''
+  }
+}
