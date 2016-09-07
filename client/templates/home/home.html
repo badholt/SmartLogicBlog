@@ -1,15 +1,17 @@
 <template name="home">
-    <div class="ui center aligned centered fourteen wide column">
-        <h1 class="ui divided header">My Blog</h1>
+    <div class="ui center aligned centered fourteen wide column blue inverted segment">
+        <h1 class="ui dividing header">My Blog</h1>
 
-        <h3 class="ui header">Barbara Holt</h3>
+        <h3 class="ui sub header">By: Barbara Holt</h3>
 
         <p>This is a simple blog description.</p>
 
-        <ul class="ui very relaxed selection list">
-            {{#each post}}
+        {{> postForm}}
+
+        <div class="ui celled very relaxed selection list">
+            {{#each posts}}
                 {{> post}}
             {{/each}}
-        </ul>
+        </div>
     </div>
 </template>
